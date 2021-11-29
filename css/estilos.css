@@ -406,6 +406,7 @@ a {
 	line-height: 42px;
 	margin: 0px 100px 40px 0px;
 	font-weight: bolder;
+	text-decoration: none;
  }
  
  
@@ -1471,4 +1472,14 @@ input.botonmasc {
 	
 
 
+}
+.lista {
+    float: left;
+	text-decoration-style:none ;
+	list-style: none;
+	
+}
+.lista1{
+	text-decoration-style:none ;
+	list-style: none;
 }

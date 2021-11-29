@@ -1,13 +1,21 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html>
 <head>
 	<meter></meter>
-	<title>Afiliar mascotas</title>
+	<title>Estado de Afiliaciones</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<title>Confirmación de eliminar afiliacion</title>
+<script language="JavaScript">
+function pregunta(){
+    if (confirm('¿Estas seguro de querer eliminar este afiliacion?')){
+       document.tuformulario.submit()
+    }
+}
+</script>
 </head>
 
 
@@ -48,7 +56,7 @@
 	</div>	
 			<article class="cajat">
 		
-					<div class="cardcliente1" style="width: 20rem; margin: 50px 20px; ">
+					<div class="cardcliente" style="width: 20rem; margin: 50px 20px; ">
 						<img src="imagenes/veterinario.png" class="img-thumbnail">
 						<h5 class="texcliente"><b>Pepito perez</b></h5>
 						<p class="texrol"><b>Cliente</b></p>
@@ -60,7 +68,7 @@
 									<div class="d-grid gap-2">
 
 									
-										<a role="button"  class="btn btn-warning1" href="listade_afiliaciones.html">Estado afiliacion</a>
+										<a role="button"  class="btn btn-warning1" href=listade_afiliaciones.html>Estado afiliacion</a>
 									
 							            
 		
@@ -82,78 +90,15 @@
 				<section class="cajap">
 					
 					<section class= "contacto2">
-						
-					
-						<div class="formulariosregistro">
-							<h4 class="titulo1">Afiliaciones mascota</h4>
-						  <form name="formularioprof" method="get" action= "" id="frmprofesor">
-							<img class="fotoperfil" src="imagenes/foto.jfif" width="150px">
-						
 				
-							<div>
-							  <label for="formFileSm" class="form-label">Fotografia</label>
-							  <input class="form-control form-control-sm" id="formFileSm" type="file"required>
-							  <div>    
-							  </div>
-							  
-							  
-							  <div id="camponombreprof">
-								  <label>Nombre: *</label>
-								  <input type="text" name="nombreprof" id="nombreprof" class="" required="">
-								  <div class="feedback"></div>
-							  </div>
-				
-							<div id="camponombreusuario">
-							  <label>Id Cliente *</label>
-							  <input type="text" name="curso" id="curso" class="" required="">
-							  <div class="feedback" required=""></div>
-						  </div>
-				
-						  <div id="camponombreprof">
-							<label>Edad: *</label>
-							<input type="number" name="Edad" id="edad" class="" required="">
-							<div class="feedback"></div>
-						</div>
-						<div id="campoduracioncurso">
-						  <label>Especie: *</label>
-						  <input type="text" name="duracioncurso" id="duracioncurso" class="" required="">
-						  <div class="feedback"></div>
-					  </div>
-					  <div id="campoduracioncurso">
-						<label>Raza: *</label>
-						<input type="text" name="duracioncurso" id="duracioncurso" class="" required="">
-						<div class="feedback"></div>
-					</div>
-				
-					  <div id="campoduracioncurso">
-						  <label>Fecha de nacimiento: *</label>
-						  <input type="date" name="fecha" id="fecha" class="" required="">
-						  <div class="feedback"></div>
-					  </div>
-				
-					  <div id="campoduracioncurso">
-						  <label class="genero">Genero: *</label>
-					  
-							<input id="genero" type="radio" name="tres" value="H" /> Macho
-							<input id="genero" type="radio" name="tres" value="M" /> Hembra
-					  
-					  </div>
-				
-					 
-					 
-				
-					 
-				    
-						<input type="submit" class="boton1" value="Enviar"  onClick="alert('Su perfil se ha actualizado')" />
-				
-				
-					
-			
-				
-					  
-				
-				  </form>
-				
+						<ul>
+							<li class="lista1"><h3><b>Afiliaciones Aceptado</b></h3>
+							  <ul>
+								<li class="lista"><a class="lista" href="afiliaciones.html">Premium oro</a>
+								</li>
+							  </ul>
+							</li>
+						</ul>
 				</div>
 				</section>
 			

@@ -8,8 +8,15 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<title>Confirmación de envío de formulario</title>
+<script language="JavaScript">
+function pregunta(){
+    if (confirm('¿Estas seguro de enviar este formulario?')){
+       document.tuformulario.submit()
+    }
+}
+</script>
 </head>
-
 
 <body>
 	<div class="container-fluid">
@@ -67,7 +74,7 @@
 			<div class="modal_cerrar2">
 			</div>
 	
-	<form class="formulario1" id="frmvalidacion" name="formulario" novalidate="novalidate" method="get" action="">
+	<form class="formulario1" id="frmvalidacion" name="formulario" novalidate="novalidate" method="get" action="tatianamarrugo1103@gmail.com">
 					  
 		<h1>Registrarse</h1><br>
 
@@ -97,7 +104,7 @@
 
 
 
-		 <input type="submit" name="boton" class="boton2" value="Enviar">
+		 <input type="submit" name="boton" class="boton2"  onclick="pregunta()" value="Enviar">
 	  
 	  
 	 
