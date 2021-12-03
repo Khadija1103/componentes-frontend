@@ -1359,3 +1359,29 @@ input.botonmasc {
 	text-decoration-style:none ;
 	list-style: none;
 }
+
+.dropdown-item{
+	width: 300px;
+	background-color:  #EA11A6;
+	color: wheat;
+	border:none;
+	margin-left: 50px;
+    
+}
+.dropdown-item:hover{
+	width: 300px;
+	background-color: #10D0EB ;
+	color: wheat;
+	border:none;
+	margin-left: 10px;
+	color:#000000;
+}
+a.dropdown-item{
+	text-align: center;
+	padding-bottom: 10px;
+	margin-bottom: 3px;
+}
+.dropdown-menu{
+	border: 0px;
+	background-image: url(../imagenes/fondo.jpg);
+}

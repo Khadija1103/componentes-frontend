@@ -11,7 +11,7 @@
 	<title>Confirmación de eliminar afiliacion</title>
 <script language="JavaScript">
 function pregunta(){
-    if (confirm('¿Estas seguro de querer eliminar esta afiliación?')){
+    if (confirm('¿Estas seguro de desea eliminar esta afiliación?')){
        document.tuformulario.submit()
     }
 }
@@ -102,32 +102,32 @@ function pregunta(){
 							<h4 class="titulo1">Estado de la afiliaciones</h4>
 							<div id="camponombreprof">
 								<label>Id afiliacion:</label>
-								<input type="number" name="id_afiliacion" id="id_afiliacion" class="" required>
+								<input type="number" name="id_afiliacion" id="id_afiliacion" class="" readonly>
 								<div class="feedback"></div>
 							</div>
 							  <div id="camponombreprof">
 								  <label>Nombre :</label>
-								  <input type="text" name="nombreprof" id="nombreprof" class="" required>
+								  <input type="text" name="nombreprof" id="nombreprof" class="" readonly>
 								  <div class="feedback"></div>
 							  </div>
 				
 							  <div id="camponombreprof">
 								<label>Estado de afiliacion:</label>
-								<input type="text" name="estado" id="estado" class="" required>
+								<input type="text" name="estado" id="estado" class="" readonly>
 								<div class="feedback"></div>
 							</div>
 					
 				
 					  <div id="campoduracioncurso">
 						  <label>Fecha de afiliacion:</label>
-						  <input type="date" name="fecha" id="fecha" class="" required>
+						  <input type="date" name="fecha" id="fecha" class="" readonly>
 						  <div class="feedback"></div>
 					  </div>
 				
 					 
 						<div id="campoperfil">
-							 <label for="mensaje" class="">Detalles: *</label>
-					  <textarea rows="10" cols="50" input type="textarea" name="mensaje" id="mensaje"></textarea required>
+							 <label for="mensaje" class=""readonly>Detalles: *</label>
+					  <input rows="10" cols="50" input type="textarea" name="mensaje" id="mensaje" readonly></
 
 								
 							</div>
